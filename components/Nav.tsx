@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Logo } from "./Logo";
 import { site } from "@/content/siteData";
 
 export function Nav() {
@@ -35,22 +34,21 @@ export function Nav() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/10 bg-white/95 backdrop-blur-sm">
-      <div className="container-xl flex h-16 items-center justify-between">
-        {/* Logo area - fixed width to prevent layout shift */}
-        <a href="#" className="flex items-center" style={{ width: 120, height: 40 }}>
+      <div className="container-xl flex h-14 items-center justify-between">
+        {/* Logo area */}
+        <a href="#" className="flex items-center shrink-0">
           {/* Logo fades in when hero logo scrolls out of view */}
-          <div
-            className={`transition-opacity duration-300 ${
+          <img
+            src="/brand/header-logo.svg"
+            alt={site.name}
+            className={`h-8 w-auto transition-opacity duration-300 ${
               showLogo ? "opacity-100" : "opacity-0 pointer-events-none"
             }`}
-          >
-            <Logo variant="wordmark" tone="dark" size={36} />
-          </div>
-          <span className="sr-only">{site.name}</span>
+          />
         </a>
 
-        {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 md:flex">
+        {/* Desktop nav - centered */}
+        <nav className="hidden flex-1 items-center justify-center gap-6 md:flex">
           {site.nav.map((item) => (
             <a
               key={item.href}
@@ -62,46 +60,36 @@ export function Nav() {
           ))}
         </nav>
 
-        {/* Right side: email + mobile hamburger */}
-        <div className="flex items-center gap-3">
-          <a
-            className="btn-ghost hidden sm:inline-flex"
-            href={`mailto:${site.contactEmail}`}
-            title="Email us"
-          >
-            Email
-          </a>
 
-          {/* Mobile hamburger */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 -mr-2 text-black/70 hover:text-black"
-            aria-label="Toggle menu"
+        {/* Mobile hamburger */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className="md:hidden p-2 text-black/70 hover:text-black"
+          aria-label="Toggle menu"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              {mobileMenuOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
-        </div>
+            {mobileMenuOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
       </div>
 
       {/* Mobile menu dropdown */}
@@ -118,13 +106,6 @@ export function Nav() {
                 {item.label}
               </a>
             ))}
-            <a
-              href={`mailto:${site.contactEmail}`}
-              onClick={handleNavClick}
-              className="block py-2 text-sm font-medium text-brand-navy"
-            >
-              Email us
-            </a>
           </nav>
         </div>
       )}

@@ -2,22 +2,23 @@ export const site = {
   name: "Ad Pilot",
   tagline: "Reach your community where they are.",
   oneLiner:
-    "Ad creation for local businesses — built to feel human, on-brand, and fast.",
+    "Ad creation for local businesses - built to feel human, on-brand, and fast.",
   notes:
     "This is a credibility site (no public demo bookings yet). Swap placeholders as you go.",
   contactEmail: "hello@ad-pilot.ai",
   nav: [
     { label: "What we do", href: "#what-we-do" },
+    { label: "The challenge", href: "#the-challenge" },
     { label: "How it works", href: "#how-it-works" },
-    { label: "Sample ads", href: "#samples" },
     { label: "Who we are", href: "#who-we-are" },
-    { label: "FAQ", href: "#faq" }
+    { label: "FAQ", href: "#faq" },
+    { label: "Contact", href: "#contact" }
   ],
   features: [
     {
       title: "On-brand scripts & hooks",
       desc:
-        "Generate short-form scripts that match your voice — educational, promo, testimonial, seasonal, and more."
+        "Generate short-form scripts that match your voice - educational, promo, testimonial, seasonal, and more."
     },
     {
       title: "Video assembly pipeline",
@@ -39,7 +40,7 @@ export const site = {
     {
       title: "Pick a campaign goal",
       desc:
-        "Inventory move, lead gen, education, announcements — we generate options and you choose."
+        "Inventory move, lead gen, education, announcements - we generate options and you choose."
     },
     {
       title: "Review & approve",
@@ -87,24 +88,36 @@ export const site = {
   ],
   faqs: [
     {
-      q: "Is Ad Pilot a marketing agency?",
-      a:
-        "Not exactly. Think of it as a productized creative system — we build repeatable outputs, templates, and workflows so ads can be produced consistently."
+      q: "Do I have to be on camera every week?",
+      a: "No. Most partners use a Spokes-Pilot Twin so they can show up consistently without nonstop filming. You approve what goes out and when."
     },
     {
-      q: "Do you post directly to my accounts?",
-      a:
-        "Optional later. For now, we optimize for a clean review loop: you approve drafts and we keep iteration fast."
+      q: "Do you need access to my accounts?",
+      a: "Yes. We are typically added as a partner so we can run and report without taking ownership. You keep ownership and can revoke access."
     },
     {
-      q: "What do you need from me to start?",
-      a:
-        "A logo, a couple example ads you like, and 15 minutes of “voice of brand” notes. We can start without headshots or perfect bios."
+      q: "What platforms do you support?",
+      a: "We start with the platforms that match your audience and goals. The program is designed to expand as new channels become relevant."
     },
     {
-      q: "Can you use my staff’s likeness/voice?",
-      a:
-        "Only with explicit permission. We’re building the process with consent and clear authorization as a default."
+      q: "How much time does this take from me?",
+      a: "Onboarding is the biggest lift. After that, most partners spend a small amount of time reviewing and approving each cycle."
+    },
+    {
+      q: "What if I want to be more hands-on?",
+      a: "You can be. The portal supports quick approvals or deeper control over creative and planning."
+    },
+    {
+      q: "How do you keep it from feeling generic?",
+      a: "We build around your voice, your offers, and your community. Non-ad videos build trust and make the ads feel authentic."
+    },
+    {
+      q: "How will I know it is working?",
+      a: "You get regular reporting tied to your goals, plus clear recommendations for what to run next and what to change."
+    },
+    {
+      q: "Can you use my staff's likeness or voice?",
+      a: "Only with explicit permission. Consent and documentation are built into the process by default."
     }
   ]
 };
