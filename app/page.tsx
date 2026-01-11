@@ -37,7 +37,7 @@ export default function Page() {
               </h1>
 
               <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-                With Ad Pilot, local businesses show up consistently on social and emerging platforms without sacrificing their time or what makes them them.
+                With Ad Pilot, local businesses show up each week on social and emerging platforms without sacrificing their time or what makes them unique.
               </p>
 
               {/* Pull quote */}
@@ -46,7 +46,7 @@ export default function Page() {
                   &ldquo;It operates as if you were at the helm, <em className="italic">even when you&apos;re not.</em>&rdquo;
                 </p>
                 <cite className="mt-2 block text-sm text-white/50 not-italic">
-                  - Owner, independent local business
+                  Owner, independent local business
                 </cite>
               </blockquote>
 
@@ -122,10 +122,10 @@ export default function Page() {
                 Digital marketing is a moving target.
               </h2>
               <p className="mt-3 text-base leading-relaxed text-black/70">
-                To get results, businesses need a weekly content plan-new ads + videos across platforms.
+                To get results, businesses need a weekly content plan: new ads and videos across platforms.
               </p>
               <p className="mt-2 text-base leading-relaxed text-black/70">
-                And it has to sound like you-not like a generic template.
+                And it has to sound like you, not like a generic template.
               </p>
           </div>
 
@@ -150,7 +150,7 @@ export default function Page() {
               </div>
               <div className="text-base font-semibold">Can I publish the same ad to every platform?</div>
               <p className="mt-2 text-sm leading-relaxed text-black/70">
-                Copy/paste rarely performs. Each platform rewards different pacing and formatting-so the same idea needs platform-native versions.
+                Copy/paste rarely performs. Each platform rewards different pacing and formatting, so the same idea needs platform-native versions.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function Page() {
               </div>
               <div className="text-base font-semibold">Can I just run ads… or do I need non-ad videos too?</div>
               <p className="mt-2 text-sm leading-relaxed text-black/70">
-                You need both: promotional ads and non-ad videos that build trust (expertise, proof, community). Local businesses win by sounding like themselves-not generic "any-business" ads.
+                You need both: promotional ads and non-ad videos that build trust (expertise, proof, community). Local businesses win by sounding like themselves, not generic "any-business" ads.
               </p>
             </div>
 
@@ -170,7 +170,7 @@ export default function Page() {
               </div>
               <div className="text-base font-semibold">Is running ads "set it once," or is it a full-time maze?</div>
               <p className="mt-2 text-sm leading-relaxed text-black/70">
-                It's a maze. Platforms have different rules, formats, and reports-and they change constantly. Good decisions require synthesizing performance across channels into a next plan.
+                It's a maze. Platforms have different rules, formats, and reports, and they change constantly. Good decisions require synthesizing performance across channels into a next plan.
                 <span className="block mt-2 text-black/50 italic">
                   (If you've ever set up an ad account and thought "forget this," you're not alone.)
                 </span>
@@ -297,7 +297,7 @@ export default function Page() {
         id="who-we-are"
         eyebrow="Who we are"
         title="Small team, high-touch execution"
-        subtitle="We stay hands-on so quality stays high, and we do not disappear after onboarding."
+        subtitle="We stay closely involved so quality stays high, and we do not disappear after onboarding."
       >
         <div className="grid gap-4 md:grid-cols-2">
           <div className="card p-5">
@@ -326,7 +326,7 @@ export default function Page() {
               </div>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-black/65">
-              Leads partner onboarding, helps shape messaging that fits the business, and stays involved as we improve performance.
+              Leads partner onboarding, helps shape messaging that fits the business, and stays involved as we improve results.
             </p>
           </div>
         </div>
