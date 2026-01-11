@@ -104,7 +104,7 @@ export const site = {
       a: "Onboarding is the biggest lift. After that, most partners spend a small amount of time reviewing and approving each cycle."
     },
     {
-      q: "What if I want to be more hands-on?",
+      q: "What if I want to be more closely involved?",
       a: "You can be. The portal supports quick approvals or deeper control over creative and planning."
     },
     {

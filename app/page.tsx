@@ -37,7 +37,7 @@ export default function Page() {
               </h1>
 
               <p className="mt-6 text-base leading-relaxed text-white/80 sm:text-lg">
-                With Ad Pilot, local businesses show up each week on social and emerging platforms without sacrificing their time or what makes them unique.
+                With Ad Pilot, local businesses show up each week on social and other digital channels without sacrificing their time or what makes them unique.
               </p>
 
               {/* Pull quote */}
@@ -170,7 +170,7 @@ export default function Page() {
               </div>
               <div className="text-base font-semibold">Is running ads "set it once," or is it a full-time maze?</div>
               <p className="mt-2 text-sm leading-relaxed text-black/70">
-                It's a maze. Platforms have different rules, formats, and reports, and they change constantly. Good decisions require synthesizing performance across channels into a next plan.
+                It's a maze. Platforms have different rules, formats, and reports, and they change constantly. Good decisions require pulling results together across channels into a next plan.
                 <span className="block mt-2 text-black/50 italic">
                   (If you've ever set up an ad account and thought "forget this," you're not alone.)
                 </span>
@@ -213,7 +213,7 @@ export default function Page() {
                 We set the foundation together: accounts or partner access, inventory or offers, brand blueprint, platforms, budget, goals, and your first Spokes-Pilot Twin.
               </p>
               <p className="mt-2 text-sm leading-relaxed text-black/65">
-                Then we build your templates, portal, and planning agents around your business.
+                Then we build your templates, portal, and weekly plan around your business.
               </p>
             </div>
 
