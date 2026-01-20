@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/content/siteData";
 
 export function Footer() {
@@ -20,8 +21,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-6 text-xs text-black/50">
-          © {new Date().getFullYear()} {site.name}. All rights reserved.
+        <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-black/50">
+          <div>© {new Date().getFullYear()} {site.name}. All rights reserved.</div>
+          <Link href="/privacy-policy" className="hover:text-black/70">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
