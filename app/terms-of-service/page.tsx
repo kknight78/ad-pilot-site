@@ -14,7 +14,7 @@ export default function TermsOfServicePage() {
         <div className="container-xl">
           <Link href="/" className="flex items-center gap-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/brand/footer-logo.svg" alt={site.name} className="h-10 w-auto" />
+            <img src="/brand/bird-light-bg.svg" alt={site.name} className="h-10 w-auto" />
             <span className="text-sm font-medium">{site.name}</span>
           </Link>
         </div>

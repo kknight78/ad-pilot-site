@@ -59,7 +59,7 @@ export function HeroLogo({
     <div className={className} style={{ width: "100%", maxWidth }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/brand/dark-horizontal-bg-removed.svg"
+        src="/brand/horizontal-dark-bg.svg"
         alt="Ad Pilot"
         style={{ width: "100%", height: "auto" }}
       />

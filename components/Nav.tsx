@@ -36,15 +36,19 @@ export function Nav() {
     <header className="sticky top-0 z-50 border-b border-black/10 bg-white/95 backdrop-blur-sm">
       <div className="container-xl flex h-14 items-center justify-between">
         {/* Logo area */}
-        <a href="#" className="flex items-center shrink-0">
+        <a href="#" className={`flex items-center gap-2 shrink-0 transition-opacity duration-300 ${
+          showLogo ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}>
           {/* Logo fades in when hero logo scrolls out of view */}
           <img
-            src="/brand/header-logo.svg"
+            src="/brand/bird-light-bg.svg"
             alt={site.name}
-            className={`h-8 w-auto transition-opacity duration-300 ${
-              showLogo ? "opacity-100" : "opacity-0 pointer-events-none"
-            }`}
+            className="h-8 w-auto"
           />
+          <div>
+            <div className="text-sm font-medium">{site.name}</div>
+            <div className="text-xs text-black/60">{site.tagline}</div>
+          </div>
         </a>
 
         {/* Desktop nav - centered */}
