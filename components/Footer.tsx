@@ -23,9 +23,14 @@ export function Footer() {
 
         <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-black/50">
           <div>© {new Date().getFullYear()} {site.name}. All rights reserved.</div>
-          <Link href="/privacy-policy" className="hover:text-black/70">
-            Privacy Policy
-          </Link>
+          <div className="flex gap-4">
+            <Link href="/privacy-policy" className="hover:text-black/70">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-of-service" className="hover:text-black/70">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

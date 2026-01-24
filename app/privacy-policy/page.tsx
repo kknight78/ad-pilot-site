@@ -133,8 +133,8 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
               <p className="text-black/80 leading-relaxed">
                 If you have questions about this Privacy Policy or our privacy practices, please contact us at:{" "}
-                <a href={`mailto:${site.contactEmail}`} className="text-[var(--brand-blue)] hover:underline">
-                  {site.contactEmail}
+                <a href="mailto:info@ad-pilot.ai" className="text-[var(--brand-blue)] hover:underline">
+                  info@ad-pilot.ai
                 </a>
               </p>
             </section>
