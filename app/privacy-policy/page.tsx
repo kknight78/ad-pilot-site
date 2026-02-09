@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
       <main className="py-14 sm:py-18">
         <div className="container-xl">
           <h1 className="text-3xl font-bold mb-2">Privacy Policy</h1>
-          <p className="text-sm text-black/60 mb-10">Last updated: January 2025</p>
+          <p className="text-sm text-black/60 mb-10">Last updated: February 2026</p>
 
           <div className="prose prose-sm max-w-none space-y-8">
             <section>
@@ -68,7 +68,7 @@ export default function PrivacyPolicyPage() {
                 <li>We will only send messages related to your account, services, or information you have requested.</li>
                 <li>Message frequency may vary based on your account activity and preferences.</li>
                 <li>Message and data rates may apply depending on your mobile carrier.</li>
-                <li>You can opt out at any time by replying STOP to any message or contacting us directly.</li>
+                <li>You can opt out at any time by replying <strong className="font-bold">STOP</strong> to any message or contacting us directly.</li>
               </ul>
               <p className="text-black/90 font-medium">
                 We do not share, sell, rent, or otherwise disclose your mobile phone number or any information

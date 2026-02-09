@@ -162,9 +162,9 @@ export default function TermsOfServicePage() {
                 Message frequency varies based on your account activity, typically 2-10 messages per week.
                 Message and data rates may apply.
               </p>
-              <p className="text-black/90 font-medium">
-                To opt out, reply STOP to any message or update your notification preferences in your account
-                settings. For help, reply HELP or contact support@ad-pilot.ai.
+              <p className="text-black/80 leading-relaxed">
+                To opt out, reply <strong className="font-bold">STOP</strong> to any message or update your notification preferences in your account
+                settings. For help, reply <strong className="font-bold">HELP</strong> or contact support@ad-pilot.ai.
               </p>
             </section>
 
